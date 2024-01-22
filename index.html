@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOCKEYS</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/9ea3819e65.js" crossorigin="anonymous"></script>
+
+    <style>
+        .manrope-font {
+            font-family: 'Manrope', sans-serif;
+        }
+    </style>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                        "base-color": "#FF4240",
+                        "section-title-color": "#131318",
+                        "para-color": "#13131899"
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+
+<body class="manrope-font">
+    <header>
+        <div class="navbar container mx-auto mt-6 px-20">
+            <div class="navbar-start">
+                <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h8m-8 6h16" />
+                        </svg>
+                    </div>
+                    <ul tabindex="0"
+                        class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                        <li><a class="text-base-color" href="#">Home</a></li>
+                        <li><a href="#">About </a></li>
+                        <li><a href="#">Pages </a></li>
+                        <li><a href="#">Blog </a></li>
+                        <li><a href="#">Contact </a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h1 class="text-3xl font-extrabold text-section-title-color">Hockey<span
+                            class="text-base-color">'</span>s</h1>
+                </div>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+                <ul class="menu menu-horizontal px-1 font-normal">
+                    <li><a class="text-base-color" href="#">Home</a></li>
+                    <li><a href="#">About </a></li>
+                    <li><a href="#">Pages </a></li>
+                    <li><a href="#">Blog </a></li>
+                    <li><a href="#">Contact </a></li>
+                </ul>
+            </div>
+            <div class="navbar-end">
+                <div class="flex justify-center items-center gap-3">
+                    <i class="fa-solid fa-magnifying-glass text-[gray]"></i>
+                    <a
+                        class="bg-base-color text-[#FFF] outline-none py-2 px-4 rounded-lg font-bold text-base hover:scale-105 duration-300 ease-in-out">Get
+                        Ticket
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <!-- Professional Hockeys Club Section -->
+        <section class="container mx-auto mt-6 px-20">
+            <div>
+                <div class="text-center space-y-4 mb-5">
+                    <h1 class="text-3xl font-extrabold text-section-title-color">Professional Hockeys Club Section</h1>
+                    <p class="text-para-color font-medium leading-6 w-2/3 mx-auto">Dit amet consectetur. Condimentum
+                        dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+                </div>
+                <div class="flex justify-between items-center">
+                    <div class="card w-full">
+                        <figure class="px-10 pt-10">
+                            <div class="radial-progress text-base-color" style="--value:87;" role="progressbar">87%</div>
+                        </figure>
+                        <div class="card-body items-center text-center">
+                            <h2 class="text-xl font-extrabold text-section-title-color">Prayer Facility</h2>
+                            <p class="text-para-color font-normal leading-6">Amet consectetur. Condimentum dignissim adipiscing .</p>
+                        </div>
+                    </div>
+                    <div class="card w-full">
+                        <figure class="px-10 pt-10">
+                            <div class="radial-progress text-[#49D293]" style="--value:95;" role="progressbar">95%</div>
+                        </figure>
+                        <div class="card-body items-center text-center">
+                            <h2 class="text-xl font-extrabold text-section-title-color">Experienced Coach</h2>
+                            <p class="text-para-color font-normal leading-6">Amet consectetur. Condimentum dignissim adipiscing .</p>
+                        </div>
+                    </div>
+                    <div class="card w-full">
+                        <figure class="px-10 pt-10">
+                            <div class="radial-progress text-yellow-500" style="--value:90;" role="progressbar">90%</div>
+                        </figure>
+                        <div class="card-body items-center text-center">
+                            <h2 class="text-xl font-extrabold text-section-title-color">Senior Player</h2>
+                            <p class="text-para-color font-normal leading-6">Amet consectetur. Condimentum dignissim adipiscing .</p>
+                        </div>
+                    </div>
+                    <div class="card w-full">
+                        <figure class="px-10 pt-10">
+                            <div class="radial-progress text-[#4C8DF1]" style="--value:80;" role="progressbar">80%</div>
+                        </figure>
+                        <div class="card-body items-center text-center">
+                            <h2 class="text-xl font-extrabold text-section-title-color">Training Ground</h2>
+                            <p class="text-para-color font-normal leading-6">Amet consectetur. Condimentum dignissim adipiscing .</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </main>
+    <footer></footer>
+
+</body>
+
+</html>
