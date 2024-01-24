@@ -43,8 +43,8 @@
 </head>
 
 <body class="manrope-font">
-    <header>
-        <div class="navbar lg:container mx-auto lg:mt-6 lg:px-20">
+    <header class="*:lg:container *:mx-auto *:lg:mt-6 *:lg:px-20">
+        <div class="navbar">
             <div class="navbar-start">
                 <div class="dropdown">
                     <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
@@ -87,25 +87,25 @@
                 </div>
             </div>
         </div>
-        <section class="mx-3 lg:container lg:mx-auto lg:mt-6 lg:px-20">
+        <section class="mx-3">
             <div class="relative w-full">
-                <div class="carousel w-full h-[70vh]">
+                <div class="carousel w-full h-[70vh] *:relative *:w-full  *:bg-no-repeat *:bg-center *:bg-cover *:rounded-2xl">
                     <div id="slide1"
-                        class="carousel-item relative w-full bg-[url('./Images/1.png')] bg-no-repeat bg-center bg-cover rounded-2xl">
+                        class="carousel-item bg-[url('./Images/1.png')]">
                         <div class="absolute flex justify-between left-[32%]  lg:left-[3%] bottom-[5%] space-x-10">
                             <a href="#slide3" class="btn btn-neutral btn-circle">❮</a>
                             <a href="#slide2" class="btn btn-neutral btn-circle">❯</a>
                         </div>
                     </div>
                     <div id="slide2"
-                        class="carousel-item relative w-full bg-[url('./Images/02.jpg')] bg-no-repeat bg-center bg-cover rounded-2xl">
+                        class="carousel-item bg-[url('./Images/02.jpg')]">
                         <div class="absolute flex justify-between left-[32%]  lg:left-[3%] bottom-[5%] space-x-10">
                             <a href="#slide1" class="btn btn-neutral btn-circle">❮</a>
                             <a href="#slide3" class="btn btn-neutral btn-circle">❯</a>
                         </div>
                     </div>
                     <div id="slide3"
-                        class="carousel-item relative w-full bg-[url('./Images/03.jpg')] bg-no-repeat bg-center bg-cover rounded-2xl">
+                        class="carousel-item bg-[url('./Images/03.jpg')]">
                         <div class="absolute flex justify-between left-[32%]  lg:left-[3%] bottom-[5%] space-x-10">
                             <a href="#slide2" class="btn btn-neutral btn-circle">❮</a>
                             <a href="#slide1" class="btn btn-neutral btn-circle">❯</a>
@@ -122,9 +122,9 @@
             </div>
         </section>
     </header>
-    <main>
+    <main class="*:mt-10 *:lg:container *:mx-auto *:lg:mt-20 *:lg:px-20 *:p-3 *:lg:p-0">
         <!-- Professional Hockeys Club Section -->
-        <section class="mt-10 lg:container mx-auto lg:mt-20 lg:px-20 ">
+        <section>
             <div>
                 <div class="text-center space-y-2 mb-5 border-2 border-dashed border-[#1313181A] border-x-0 py-7">
                     <h1 class="text-xl font-bold lg:text-3xl lg:font-extrabold text-section-title-color">Professional
@@ -133,8 +133,8 @@
                         showcasing top-tier athletes, strategic brilliance, and a commitment to excellence. Join us for
                         an exhilarating journey through the dynamic world of competitive hockey. </p>
                 </div>
-                <div class="flex flex-col lg:flex-row justify-between items-center">
-                    <div class="card w-full">
+                <div class="flex flex-col lg:flex-row justify-between items-center *:w-full">
+                    <div class="card">
                         <figure class="px-10 pt-10">
                             <div class="radial-progress text-base-color rotate-180" style="--value:87;"
                                 role="progressbar"><span class="text-black rotate-180 font-extrabold text-xl">87%</span>
@@ -147,7 +147,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="card w-full">
+                    <div class="card">
                         <figure class="px-10 pt-10">
                             <div class="radial-progress text-[#49D293] rotate-180" style="--value:95;"
                                 role="progressbar"><span class="text-black rotate-180 font-extrabold text-xl">95%</span>
@@ -160,7 +160,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="card w-full">
+                    <div class="card">
                         <figure class="px-10 pt-10">
                             <div class="radial-progress text-yellow-500 rotate-180" style="--value:90;"
                                 role="progressbar"><span class="text-black rotate-180 font-extrabold text-xl">90%</span>
@@ -173,7 +173,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="card w-full">
+                    <div class="card">
                         <figure class="px-10 pt-10">
                             <div class="radial-progress text-[#4C8DF1] rotate-180" style="--value:80;"
                                 role="progressbar"><span class="text-black rotate-180 font-extrabold text-xl">80%</span>
@@ -191,7 +191,7 @@
         </section>
 
         <!-- Program Sections -->
-        <section class="mt-10 lg:container mx-auto lg:mt-20 lg:px-20 p-3">
+        <section>
             <div class="text-center space-y-2 mb-5 border-dashed border-[#1313181A] border-2 border-x-0 py-7">
                 <h1 class="text-xl font-bold lg:text-3xl lg:font-extrabold text-section-title-color">Program
                     Sections</h1>
@@ -199,8 +199,8 @@
                     fostering skill development, teamwork, and passion for the sport, shaping dedicated athletes for
                     success </p>
             </div>
-            <div class="flex flex-col lg:grid grid-cols-12 gap-5">
-                <div class="relative col-span-6 h-[330px]">
+            <div class="flex flex-col lg:grid grid-cols-12 gap-5 *:relative *:h-[330px]">
+                <div class="col-span-6">
                     <img class="w-full h-full object-cover rounded-3xl" src="./Images/2.png" alt="">
                     <div
                         class="absolute h-full w-full top-0 left-0 p-10 flex flex-col justify-center md:justify-end space-y-4 bg-gradient-to-r from-[#2b2b2bb4] via-[#94949450] to-[#2b2b2bb4] rounded-3xl text-white">
@@ -217,7 +217,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="relative col-span-6 h-[330px]">
+                <div class="col-span-6">
                     <img class="w-full h-full object-cover rounded-3xl" src="./Images/3.png" alt="">
                     <div
                         class="absolute h-full w-full top-0 left-0 p-10 flex flex-col justify-center md:justify-end space-y-4 bg-gradient-to-r from-[#2b2b2bb4] via-[#94949450] to-[#2b2b2bb4] rounded-3xl text-white">
@@ -234,7 +234,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="relative col-span-12 h-[330px] lg:h-[450px]">
+                <div class="col-span-12 lg:h-[450px]">
                     <img class="w-full h-full object-cover rounded-3xl" src="./Images/4.png" alt="">
                     <div
                         class="absolute h-full w-full top-0 left-0 p-10 flex flex-col justify-center md:justify-end space-y-4 bg-gradient-to-r from-[#2b2b2bb4] via-[#94949450] to-[#2b2b2bb4] rounded-3xl text-white">
@@ -254,7 +254,7 @@
         </section>
 
         <!-- Our New Products Section -->
-        <section class="mt-10 lg:container mx-auto lg:mt-20 lg:px-20">
+        <section>
             <div class="text-center space-y-2 mb-5 border-dashed border-[#1313181A] border-2 border-x-0 py-7">
                 <h1 class="text-xl font-bold lg:text-3xl lg:font-extrabold text-section-title-color">Our New Products
                 </h1>
@@ -264,13 +264,11 @@
                 </p>
             </div>
             <div>
-                <div class="grid grid-cols-1 p-3 lg:grid-cols-2 gap-5 lg:p-0">
-                    <div
-                        class="flex flex-col lg:flex-row gap-3 border-solid border-[#1313181A] border-2 p-3 rounded-2xl">
+                <div class="grid grid-cols-1 p-3 lg:grid-cols-2 gap-5 lg:p-0 *:border-[#1313181A] *:gap-3 *:border-solid  *:border-2 *:p-3 *:rounded-2xl *:flex *:flex-col *:lg:flex-row">
+                    <div>
                         <div class="w-full lg:w-[34%]">
                             <img class="w-full" src="Images/5.png" class="max-w-sm rounded-lg" />
                         </div>
-
                         <div class="space-y-2 lg:flex lg:flex-col lg:justify-evenly  lg:w-[66%]">
                             <div class="space-x-3  text-[#13131880] font-medium">
                                 <span class="space-x-1">
@@ -300,8 +298,7 @@
                             </div>
                         </div>
                     </div>
-                    <div
-                        class="flex flex-col lg:flex-row gap-3 border-solid border-[#1313181A] border-2 p-3 rounded-2xl">
+                    <div>
                         <div class="w-full  lg:w-[34%]">
                             <img class="w-full" src="Images/6.png" class="max-w-sm rounded-lg" />
                         </div>
@@ -335,8 +332,7 @@
                             </div>
                         </div>
                     </div>
-                    <div
-                        class="flex flex-col lg:flex-row gap-3 border-solid border-[#1313181A] border-2 p-3 rounded-2xl">
+                    <div>
                         <div class="w-full  lg:w-[34%]">
                             <img class="w-full" src="Images/7.png" class="max-w-sm rounded-lg" />
                         </div>
@@ -370,8 +366,7 @@
                             </div>
                         </div>
                     </div>
-                    <div
-                        class="flex flex-col lg:flex-row gap-3 border-solid border-[#1313181A] border-2 p-3 rounded-2xl">
+                    <div>
                         <div class="w-full  lg:w-[34%]">
                             <img class="w-full" src="Images/8.png" class="max-w-sm rounded-lg" />
                         </div>
@@ -405,8 +400,7 @@
                             </div>
                         </div>
                     </div>
-                    <div
-                        class="flex flex-col lg:flex-row gap-3 border-solid border-[#1313181A] border-2 p-3 rounded-2xl">
+                    <div>
                         <div class="w-full  lg:w-[34%]">
                             <img class="w-full" src="Images/9.png" class="max-w-sm rounded-lg" />
                         </div>
@@ -440,12 +434,10 @@
                             </div>
                         </div>
                     </div>
-                    <div
-                        class="flex flex-col lg:flex-row gap-3 border-solid border-[#1313181A] border-2 p-3 rounded-2xl">
+                    <div>
                         <div class="w-full  lg:w-[34%]">
                             <img class="w-full" src="Images/10.png" class="max-w-sm rounded-lg" />
                         </div>
-
                         <div class="space-y-2 lg:flex lg:flex-col lg:justify-evenly  lg:w-[64%]">
                             <div class="space-x-3 text-[#13131880] font-medium">
                                 <span class="space-x-1">
@@ -479,7 +471,7 @@
             </div>
         </section>
         <!-- Client Question Section-->
-        <section class="mt-10 p-3 lg:container mx-auto lg:mt-20 lg:px-20 lg:p-0">
+        <section>
             <div
                 class="flex flex-col justify-center items-center space-y-2 border-dashed border-[#1313181A] border-2 border-x-0 py-7">
                 <h1 class="text-xl font-bold lg:text-3xl lg:font-extrabold text-section-title-color">Frequently Asked
@@ -583,7 +575,7 @@
         </section>
 
         <!-- Get In Touch Section-->
-        <section class="mt-10 p-3 lg:container mx-auto lg:mt-20 lg:px-20 lg:p-0">
+        <section>
             <div class="space-y-16">
                 <div class="text-center space-y-2 mb-5 border-dashed border-[#1313181A] border-2 border-x-0 py-7">
                     <h1 class="text-xl font-bold lg:text-3xl lg:font-extrabold text-section-title-color">Get In Touch
@@ -695,7 +687,7 @@
             </div>
         </section>
         <!-- Social Media Section -->
-        <section class="mt-3 p-3 lg:container mx-auto lg:mt-20 lg:px-20 lg:p-0">
+        <section>
             <div class="flex flex-col justify-center items-center space-y-3 rounded-xl bg-[#13131808] py-10">
                 <h1 class="text-xl font-extrabold">Social Media</h1>
                 <div class="space-x-3">
@@ -709,8 +701,8 @@
     </main>
     <section class="bg-black">
         <div class="grid-cols-1 lg:grid-cols-4 p-3 bg-black text-neutral-content container mx-auto mt-6 lg:px-20">
-            <div class="grid grid-cols-1 lg:grid-cols-3  space-y-10 p-5 lg:gap-3">
-                <div class="w-full">
+            <div class="grid grid-cols-1 lg:grid-cols-3  space-y-10 p-5 lg:gap-3 *:w-full">
+                <div>
                     <nav class="text-center space-y-2  lg:text-left lg:pt-10">
                         <header class="text-white text-xl font-bold">Get In Touch</header>
                         <div class="text-[#FFFFFF99] space-y-2">
@@ -726,7 +718,7 @@
 
                     </nav>
                 </div>
-                <div class="w-full  flex justify-between gap:2">
+                <div class="flex justify-between gap:2">
                     <div class="">
                         <nav class="text-center space-y-2 flex flex-col items-center  lg:items-start">
                             <header class="text-white text-xl font-bold">Company</header>
@@ -753,7 +745,7 @@
                         </nav>
                     </div>
                 </div>
-                <div class="w-full">
+                <div>
                     <nav class=" flex flex-col   lg:flex-col lg:items-end">
                         <div class="flex flex-col items-center lg:items-start space-y-2 lg:justify-end">
                             <header class="text-white text-xl font-bold">Services</header>
